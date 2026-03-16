@@ -224,7 +224,7 @@ export default function HomePage() {
       >
         <Link href="/" className="nav-logo-wrap">
           <Image
-            src="/assests/Final-Logo-01-copy.png"
+            src="/assests/main-logo.png"
             alt="NeelChakra — Premier Wire Manufacturer"
             className="nav-logo"
             width={220}
@@ -269,7 +269,7 @@ export default function HomePage() {
         <div className="hero-bg">
           <div className="hero-bg-inner">
             <Image
-              src="/assests/shutterstock_2651660697.jpg"
+              src="/assests/chain-fencing-wire-1.jpg"
               alt="Chemical-coated chain link wire fencing — GI wire manufacturer Raipur"
               fill
               className="object-cover"
@@ -287,7 +287,7 @@ export default function HomePage() {
           </div>
           <div className="hero-logo-between">
             <Image
-              src="/assests/Neelchalkralogo.png"
+              src="/assests/short-logo.png"
               alt="NeelChakra"
               width={280}
               height={280}
@@ -607,7 +607,7 @@ export default function HomePage() {
       <footer>
         <div className="footer-inner">
           <Image
-            src="/assests/Final-Logo-01-copy.png"
+            src="/assests/short-logo.png"
             alt="NeelChakra"
             className="footer-logo"
             width={120}

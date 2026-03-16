@@ -31,10 +31,10 @@ export const metadata: Metadata = {
     title: "NeelChakra — Double-Coated GI Wire Manufacturer, Raipur",
     description:
       "15+ years of wire life through double chemical-coating technology. ISO 9001:2015 certified. Salt-spray tested every batch. Serving Raipur, Chhattisgarh & across India.",
-    images: [{ url: "/assests/Final-Logo-01-copy.png", alt: "NeelChakra — GI Wire Manufacturer Raipur" }],
+    images: [{ url: "/assests/main-logo.png", alt: "NeelChakra — GI Wire Manufacturer Raipur" }],
   },
   alternates: { canonical: SITE_URL },
-  icons: { icon: "/assests/Final-Logo-01-copy.png" },
+  icons: { icon: "/assests/main-logo.png" },
 };
 
 export default function RootLayout({

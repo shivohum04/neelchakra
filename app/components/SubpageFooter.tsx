@@ -7,7 +7,7 @@ export default function SubpageFooter() {
     <footer>
       <div className="footer-inner">
         <Image
-          src="/assests/Final-Logo-01-copy.png"
+          src="/assests/short-logo.png"
           alt="NeelChakra"
           className="footer-logo"
           width={120}

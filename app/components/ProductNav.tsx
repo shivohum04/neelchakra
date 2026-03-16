@@ -44,7 +44,7 @@ export default function ProductNav() {
     >
       <Link href="/" className="nav-logo-wrap">
         <Image
-          src="/assests/Final-Logo-01-copy.png"
+          src="/assests/main-logo.png"
           alt="NeelChakra — Premier Wire Manufacturer"
           className="nav-logo"
           width={220}
