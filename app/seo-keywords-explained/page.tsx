@@ -23,7 +23,7 @@ export default function SeoKeywordsExplainedPage() {
             </h1>
             <p>
               This page brings together the main terms that buyers use when searching for NeelChakra&apos;s{' '}
-              <strong>double coated GI wire</strong}, chain link fencing, barbed wire, and grassland fencing solutions.
+              <strong>double coated GI wire</strong>, chain link fencing, barbed wire, and grassland fencing solutions.
               It is designed as a technical reference for procurement teams, dealers, and project engineers.
             </p>
           </div>
