@@ -9,8 +9,10 @@ const TRANSLATIONS: Record<string, { en: string; hi: string }> = {
   langModalDesc: { en: "Select your preferred language to continue", hi: "जारी रखने के लिए अपनी भाषा चुनें" },
   isoCert: { en: "ISO 9001:2015 Certified", hi: "ISO 9001:2015 प्रमाणित" },
   heroTitle: {
-    en: "The Future of Durable Wiring: <span>15+ Years</span> of Protected Life.",
-    hi: "टिकाऊ वायरिंग का भविष्य: <span>15+ वर्षों</span> की सुरक्षित आयु।",
+    en:
+      'Double coated<br />Double Protected<br /><span class="hero-title-brand">NeelChakra</span> Guaranteed',
+    hi:
+      'डबल कोटेड<br />डबल सुरक्षा<br /><span class="hero-title-brand">नीलचक्र</span> गारंटी',
   },
   heroSub: {
     en: "NeelChakra — Saath De Sada.<br>Double-coated GI wires engineered for 15+ years of protected life.<br>Trusted by agriculture industry and infrastructure projects across India.",
@@ -35,10 +37,10 @@ const TRANSLATIONS: Record<string, { en: string; hi: string }> = {
     en: "NeelChakra's exclusive double-coating process combines premium GI wire with a chemical barrier — delivering corrosion resistance that outlasts ordinary wire by years.",
     hi: "नीलचक्र की विशेष डबल-कोटिंग प्रक्रिया प्रीमियम GI वायर को एक मजबूत रासायनिक अवरोध के साथ जोड़ती है — जो सामान्य वायर की तुलना में वर्षों अधिक जंग प्रतिरोध प्रदान करती है।",
   },
-  bp1Title: { en: "15+ Years of Wire Life", hi: "15+ वर्षों की वायर आयु" },
+  bp1Title: { en: "UV Protected Coating", hi: "यूवी सुरक्षित कोटिंग" },
   bp1Desc: {
-    en: "Our double-coat technology ensures each wire resists degradation for 15+ years — offering unmatched long-term value.",
-    hi: "हमारी डबल-कोट तकनीक प्रत्येक वायर को 15+ वर्षों तक क्षरण से बचाती है — जो बेजोड़ दीर्घकालिक मूल्य प्रदान करती है।",
+    en: "Our secondary chemical coat is formulated to resist UV breakdown and surface chalking — keeping the blue protective layer intact even under harsh sun and outdoor exposure.",
+    hi: "हमारी द्वितीयक रासायनिक परत यूवी क्षरण और सतह पर चॉकिंग से लड़ती है — कठोर धूप में भी नीली सुरक्षात्मक परत बनाए रखती है।",
   },
   bp2Title: { en: "Superior Corrosion Defence", hi: "उत्कृष्ट जंग-रोधी सुरक्षा" },
   bp2Desc: {
@@ -47,8 +49,8 @@ const TRANSLATIONS: Record<string, { en: string; hi: string }> = {
   },
   bp3Title: { en: "Lower Lifetime Cost", hi: "कम आजीवन लागत" },
   bp3Desc: {
-    en: "Replace wires less frequently. Our 15-year lifespan means 2–3x fewer replacements — bringing significant cost savings.",
-    hi: "वायर कम बार बदलें। हमारी 15 वर्ष की आयु का अर्थ है 2-3 गुना कम बदलाव — जिससे भारी लागत बचत होती है।",
+    en: "Replace wires less frequently. Longer-lasting coatings mean fewer perimeter rebuilds and lower total cost of ownership for farms, plants, and infrastructure.",
+    hi: "वायर कम बार बदलें। लंबे समय तक टिकाऊ कोटिंग से कम मरम्मत और कुल लागत में बचत।",
   },
   processLabel: { en: "Our Process", hi: "हमारी प्रक्रिया" },
   processTitle: {
@@ -85,12 +87,12 @@ const TRANSLATIONS: Record<string, { en: string; hi: string }> = {
     en: "From agricultural fencing to industrial security, our range of chemical-coated wire products delivers reliable performance in any environment.",
     hi: "कृषि बाड़ लगाने से लेकर औद्योगिक सुरक्षा तक, हमारे केमिकल-कोटेड वायर उत्पादों की श्रृंखला किसी भी वातावरण में विश्वसनीय प्रदर्शन प्रदान करती है।",
   },
-  chainLinkTitle: { en: "Neelchakra Chain Link Fencing", hi: "नीलचक्र चेन लिंक फेंसिंग" },
-  chainLinkSub: { en: "Double-coated, weather-resistant GI wire", hi: "डबल-कोटेड, मौसम प्रतिरोधी" },
+  chainLinkTitle: { en: "Neelchakra Chainlink Mesh", hi: "नीलचक्र चेनलिंक मेश" },
+  chainLinkSub: { en: "Double-coated, weather-resistant GI mesh", hi: "डबल-कोटेड, मौसम प्रतिरोधी मेश" },
   barbedTitle: { en: "Neelchakra Barbed Wire", hi: "नीलचक्र कांटेदार तार" },
   barbedSub: { en: "High-tensile, double-coated protection", hi: "उच्च-तन्यता, डबल-कोटेड" },
-  grasslandTitle: { en: "Neelchakra Grassland Fencing", hi: "नीलचक्र ग्रसलैंड फेंसिंग" },
-  grasslandSub: { en: "Farm-grade, long-lasting GI fencing", hi: "फार्म-ग्रेड, लंबे समय तक टिकाऊ" },
+  grasslandTitle: { en: "Neelchakra Grassland Fencing", hi: "नीलचक्र ग्रासलैंड फेंसिंग" },
+  grasslandSub: { en: "Farm-grade, long-lasting GI mesh fencing", hi: "फार्म-ग्रेड, टिकाऊ मेश बाड़" },
   neelchakraWireTitle: { en: "Neelchakra Wire", hi: "नीलचक्र वायर" },
   neelchakraWireSub: { en: "Premium binding and stay wire", hi: "प्रीमियम बाइंडिंग और स्टे वायर" },
   trustLabel: { en: "Trust Signals", hi: "विश्वास संकेत" },
@@ -103,6 +105,11 @@ const TRANSLATIONS: Record<string, { en: string; hi: string }> = {
   saltSprayDesc: {
     en: "Every batch passes 72–96+ hours salt spray testing for corrosion resistance.",
     hi: "प्रत्येक बैच जंग प्रतिरोध के लिए 72-96+ घंटे का साल्ट स्प्रे परीक्षण पास करता है।",
+  },
+  uvCoatingTitle: { en: "UV Protected Coating", hi: "यूवी सुरक्षित कोटिंग" },
+  uvCoatingDesc: {
+    en: "The outer chemical layer is engineered for UV stability — reducing fade, chalking, and coating loss in open fields and coastal sunlight.",
+    hi: "बाहरी रासायनिक परत यूवी स्थिरता के लिए तैयार — खुले खेतों और तटीय धूप में फेड और कोटिंग हानि कम करती है।",
   },
   isoDesc: {
     en: "Quality Management System certified — consistent, reliable manufacturing at every stage.",
@@ -240,6 +247,11 @@ export default function HomePage() {
           <li>
             <Link href="/tata-aayush-alternative" onClick={() => setMenuOpen(false)}>
               Smart Pricing
+            </Link>
+          </li>
+          <li>
+            <Link href="/contact" onClick={() => setMenuOpen(false)}>
+              {t("contact", lang)}
             </Link>
           </li>
         </ul>
@@ -397,18 +409,18 @@ export default function HomePage() {
           <h2 className="section-title fade-up">{t("productsTitle", lang)}</h2>
           <p className="section-desc fade-up">{t("productsDesc", lang)}</p>
           <div className="products-grid">
-            <Link href="/fencing-products/chain-link-fencing" className="product-card fade-up block cursor-pointer">
+            <Link href="/fencing-products/neelchakra-wire" className="product-card fade-up block cursor-pointer">
               <div className="absolute inset-0">
                 <Image
-                  src="/assests/chain-fencing-wire-1.jpg"
-                  alt="Neelchakra Chain Link Fencing — double-coated GI wire manufacturer Raipur"
+                  src="/assests/wire-1.jpg"
+                  alt="Neelchakra Wire — premium double-coated GI wire"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 33vw"
                 />
               </div>
               <div className="product-overlay">
-                <h3>{t("chainLinkTitle", lang)}</h3>
+                <h3>{t("neelchakraWireTitle", lang)}</h3>
                 <span className="simple-click-pill">
                   {t("clickHere", lang)}
                 </span>
@@ -431,7 +443,24 @@ export default function HomePage() {
                 </span>
               </div>
             </Link>
-            <Link href="/fencing-products/double-coated-gi-wire" className="product-card fade-up block cursor-pointer">
+            <Link href="/fencing-products/chain-link-fencing" className="product-card fade-up block cursor-pointer">
+              <div className="absolute inset-0">
+                <Image
+                  src="/assests/chain-fencing-wire-1.jpg"
+                  alt="Neelchakra Chainlink Mesh — double-coated GI wire manufacturer Raipur"
+                  fill
+                  className="object-cover"
+                  sizes="(max-width: 768px) 100vw, 33vw"
+                />
+              </div>
+              <div className="product-overlay">
+                <h3>{t("chainLinkTitle", lang)}</h3>
+                <span className="simple-click-pill">
+                  {t("clickHere", lang)}
+                </span>
+              </div>
+            </Link>
+            <Link href="/fencing-products/grassland-fencing" className="product-card fade-up block cursor-pointer">
               <div className="absolute inset-0">
                 <Image
                   src="/assests/grassland-fencing-1.jpg"
@@ -443,23 +472,6 @@ export default function HomePage() {
               </div>
               <div className="product-overlay">
                 <h3>{t("grasslandTitle", lang)}</h3>
-                <span className="simple-click-pill">
-                  {t("clickHere", lang)}
-                </span>
-              </div>
-            </Link>
-            <Link href="/fencing-products/neelchakra-wire" className="product-card fade-up block cursor-pointer">
-              <div className="absolute inset-0">
-                <Image
-                  src="/assests/wire-1.jpg"
-                  alt="Neelchakra Wire — premium double-coated GI wire"
-                  fill
-                  className="object-cover"
-                  sizes="(max-width: 768px) 100vw, 33vw"
-                />
-              </div>
-              <div className="product-overlay">
-                <h3>{t("neelchakraWireTitle", lang)}</h3>
                 <span className="simple-click-pill">
                   {t("clickHere", lang)}
                 </span>
@@ -494,6 +506,16 @@ export default function HomePage() {
               </div>
               <h4>{t("saltSprayTitle", lang)}</h4>
               <p>{t("saltSprayDesc", lang)}</p>
+            </div>
+            <div className="cert-card fade-up">
+              <div className="cert-icon">
+                <svg viewBox="0 0 24 24" strokeWidth={1.6} className="stroke-[var(--brand-blue)] w-8 h-8" fill="none">
+                  <circle cx="12" cy="12" r="5" />
+                  <path d="M12 1v2M12 21v2M4.22 4.22l1.42 1.42M18.36 18.36l1.42 1.42M1 12h2M21 12h2M4.22 19.78l1.42-1.42M18.36 5.64l1.42-1.42" />
+                </svg>
+              </div>
+              <h4>{t("uvCoatingTitle", lang)}</h4>
+              <p>{t("uvCoatingDesc", lang)}</p>
             </div>
           </div>
         </div>
@@ -584,9 +606,6 @@ export default function HomePage() {
       <section className="spec-section" style={{ background: 'var(--white)' }}>
         <div className="section-inner">
           <div className="spec-section-header">
-            <span className="section-label">
-              <span className="section-label-text">Visit Our Plant</span>
-            </span>
             <h2>SK Engineering Solutions — Metal Park, Raipur</h2>
             <p>Plan a visit to see NeelChakra&apos;s double-coated GI wire manufacturing facility in person.</p>
           </div>
@@ -617,13 +636,14 @@ export default function HomePage() {
           <ul className="footer-links">
             <li><Link href="/#hero">{t("home", lang)}</Link></li>
             <li><Link href="/#technology">{t("technology", lang)}</Link></li>
+            <li><Link href="/contact">{t("contact", lang)}</Link></li>
             <li>
               <a
                 href="https://wa.me/917697848221?text=Hi%2C%20I'm%20interested%20in%20NeelChakra%20wire%20products."
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {t("contact", lang)}
+                WhatsApp
               </a>
             </li>
           </ul>

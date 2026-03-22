@@ -8,14 +8,14 @@ const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://neelchakra.in";
 export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title:
-    "NeelChakra — Double-Coated GI Wire Manufacturer in Raipur | Chain Link, Barbed Wire & Grassland Fencing",
+    "NeelChakra — Double-Coated GI Wire Manufacturer in Raipur | Wire, Barbed Wire, Chainlink & Grassland Fencing",
   description:
-    "NeelChakra by SK Engineering Solutions, Raipur — manufacturer of double-coated GI wire, chain link fencing, barbed wire, and grassland fencing. ISO 9001:2015 certified. Salt-spray tested. Get a bulk quote today.",
+    "NeelChakra by SK Engineering Solutions, Raipur — Neelchakra wire, Neelchakra barbed wire, Neelchakra chainlink mesh, and Neelchakra grassland fencing. ISO 9001:2015 certified. UV-stable coating. Salt-spray tested. Get a bulk quote today.",
   keywords: [
     "GI wire manufacturer Raipur",
-    "chain link fencing Chhattisgarh",
+    "Neelchakra chainlink mesh",
     "barbed wire supplier Raipur",
-    "grassland fencing India",
+    "Neelchakra grassland fencing",
     "double coated wire",
     "corrosion resistant wire",
     "wire manufacturer Raipur",

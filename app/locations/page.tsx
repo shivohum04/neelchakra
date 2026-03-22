@@ -38,7 +38,7 @@ export default function LocationsIndexPage() {
               <span style={{ color: 'var(--brand-blue)' }}>Across Central & Peninsular India</span>
             </h1>
             <p>
-              Operating from our massive manufacturing hub in Raipur, NeelChakra acts as the primary <strong>fencing wire manufacturer</strong> for projects scaling across state borders. As a leading <strong>double coated GI wire exporter India</strong>, we provide export-quality materials directly to domestic sites without middleman delays.
+              Operating from our massive manufacturing hub in Raipur, NeelChakra acts as the primary <strong>fencing wire manufacturer</strong> for projects scaling across state borders. We deliver factory-direct, ISO-certified double-coated GI wire to sites across India — without middleman delays.
             </p>
           </div>
 
@@ -66,7 +66,7 @@ export default function LocationsIndexPage() {
         <div className="product-cta-band-inner">
           <div>
             <h2>Not on the map?</h2>
-            <p>We supply to all 28 states of India and export internationally. Provide your delivery region for a quote.</p>
+            <p>We supply across India. Share your delivery region for a freight quote.</p>
           </div>
           <a
             href="https://wa.me/917697848221?text=Hi%2C%20I%20want%20to%20check%20freight%20costs%20for%20NeelChakra%20wire%20to%20my%20location."

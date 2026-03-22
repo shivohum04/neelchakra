@@ -63,9 +63,10 @@ export default function IndustrialPage() {
           </div>
           <div className="products-detail-grid">
             {[
-              { title: 'Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The ultimate deterrent. Our 4-point barbs are twisted with heavy 10-gauge wire for maximum security topping.', img: '/assests/barbed-wire-1.jpg' },
-              { title: 'Chain Link Fencing', url: '/fencing-products/chain-link-fencing', desc: 'High-visibility 75mm anti-climb mesh available in heights up to 3.6 meters for industrial compounds.', img: '/assests/chain-fencing-wire-1.jpg' },
-              { title: 'Double Coated GI Wire', url: '/fencing-products/double-coated-gi-wire', desc: 'Used for stay wires, structural tensioning, and heavy-duty binding inside factory limits.', img: '/assests/grassland-fencing-1.jpg' },
+              { title: 'Neelchakra Wire', url: '/fencing-products/neelchakra-wire', desc: 'Stay wires, structural tensioning, and heavy-duty binding inside factory limits.', img: '/assests/wire-1.jpg' },
+              { title: 'Neelchakra Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The ultimate deterrent. Our 4-point barbs are twisted with heavy 10-gauge wire for maximum security topping.', img: '/assests/barbed-wire-1.jpg' },
+              { title: 'Neelchakra Chainlink Mesh', url: '/fencing-products/chain-link-fencing', desc: 'High-visibility 75mm anti-climb mesh available in heights up to 3.6 meters for industrial compounds.', img: '/assests/chain-fencing-wire-1.jpg' },
+              { title: 'Neelchakra Grassland Fencing', url: '/fencing-products/grassland-fencing', desc: 'Long-span grassland fencing for yards, loading bays, and perimeter reinforcement.', img: '/assests/grassland-fencing-1.jpg' },
             ].map((p) => (
               <Link key={p.url} href={p.url} className="product-detail-card">
                 <img src={p.img} alt={p.title} className="product-detail-card-img" />

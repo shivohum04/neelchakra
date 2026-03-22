@@ -427,7 +427,7 @@ nav.scrolled {
   font-family: var(--font-primary);
   font-size: clamp(2.4rem, 5vw, 3.8rem);
   font-weight: 700;
-  line-height: 1.15;
+  line-height: 1.22;
   color: var(--white);
   margin-bottom: 20px;
   text-shadow: 0 4px 16px rgba(0, 0, 0, 0.8), 0 2px 4px rgba(0, 0, 0, 0.5);
@@ -435,6 +435,7 @@ nav.scrolled {
   z-index: 3;
 }
 
+/* Hero headline: accent words match ISO pill & stat figures (2x, 500+, NeelChakra) */
 .hero h1 span {
   color: var(--brand-cyan);
 }
@@ -895,9 +896,9 @@ section {
 
 .cert-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
   gap: 28px;
-  max-width: 900px;
+  max-width: 1100px;
   margin: 0 auto;
 }
 
@@ -1754,6 +1755,70 @@ footer {
 }
 .product-cta-band .btn-cta:hover { transform: translateY(-3px); box-shadow: 0 16px 40px rgba(0,0,0,0.25); }
 
+/* Inquiry form (used in product CTA band) */
+.inquiry-form-panel {
+  text-align: center;
+  padding: 40px 24px;
+}
+main.product-content-left .inquiry-form-panel {
+  text-align: left;
+}
+
+/* ─── Product marketing pages: align body copy with heading (left) ─── */
+main.product-content-left .product-page-header-inner {
+  text-align: left;
+}
+main.product-content-left .product-page-header > .product-page-header-inner > p {
+  margin-left: 0;
+  margin-right: auto;
+}
+main.product-content-left .spec-section-header {
+  text-align: left;
+}
+main.product-content-left .spec-section-header .section-label {
+  margin-left: 0;
+  margin-right: auto;
+}
+main.product-content-left .spec-section-header p {
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 42rem;
+}
+main.product-content-left .product-cta-band-inner {
+  text-align: left;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+.features-section-intro {
+  margin-bottom: 40px;
+}
+main.product-content-left .features-section .section-label {
+  margin-left: 0;
+  margin-right: auto;
+}
+main.product-content-left .features-section .section-title {
+  text-align: left;
+}
+main.product-content-left .features-section .section-desc {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 42rem;
+}
+main.product-content-left .process-section .section-label {
+  margin-left: 0;
+  margin-right: auto;
+}
+main.product-content-left .process-section .section-title {
+  text-align: left;
+}
+main.product-content-left .process-section .section-desc {
+  text-align: left;
+  margin-left: 0;
+  margin-right: 0;
+  max-width: 42rem;
+}
+
 /* ─── RESPONSIVE: PRODUCT PAGES ─── */
 @media (max-width: 1024px) {
   .features-grid { grid-template-columns: repeat(2, 1fr); }
@@ -1770,5 +1835,51 @@ footer {
   .products-detail-grid { grid-template-columns: 1fr; }
   .product-cta-band { padding: 56px 20px; }
   .product-cta-band-inner { flex-direction: column; text-align: center; }
+  main.product-content-left .product-cta-band-inner {
+    text-align: left;
+    align-items: flex-start;
+  }
+  .grassland-bullet-grid { grid-template-columns: 1fr; }
+}
+
+/* ─── Grassland fencing product page ─── */
+.grassland-bullet-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 16px;
+  list-style: none;
+  padding: 0;
+  margin: 24px 0 0;
+}
+.grassland-bullet-card {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  background: var(--white);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 16px 18px;
+  font-size: 0.98rem;
+  line-height: 1.55;
+  color: var(--text-body);
+  box-shadow: var(--shadow-sm);
+}
+.grassland-bullet-dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--brand-blue), var(--brand-cyan));
+  flex-shrink: 0;
+  margin-top: 6px;
+}
+.grassland-quote-list {
+  margin: 0;
+  padding-left: 22px;
+  color: rgba(255, 255, 255, 0.92);
+  line-height: 1.75;
+  font-size: 0.98rem;
+}
+.grassland-quote-list li {
+  margin-bottom: 10px;
 }
 

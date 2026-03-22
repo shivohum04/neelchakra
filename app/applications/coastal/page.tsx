@@ -63,9 +63,10 @@ export default function CoastalPage() {
           </div>
           <div className="products-detail-grid">
             {[
-              { title: 'Chain Link Fencing', url: '/fencing-products/chain-link-fencing', desc: 'Secure beachfront properties and coastal highways with 12-gauge 80 GSM mesh that retains its silver-blue finish.', img: '/assests/chain-fencing-wire-1.jpg' },
-              { title: 'Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The complex twist points of barbed wire are notorious rust traps. Our double-coat seals the joints completely.', img: '/assests/barbed-wire-1.jpg' },
-              { title: 'Double Coated GI Wire', url: '/fencing-products/double-coated-gi-wire', desc: 'A mandatory raw material for any fabrication, pole-tying, or construction work occurring near the sea.', img: '/assests/grassland-fencing-1.jpg' },
+              { title: 'Neelchakra Wire', url: '/fencing-products/neelchakra-wire', desc: 'Binding and stay wire for coastal fabrication, pole-tying, and corrosion-critical tie-down near the sea.', img: '/assests/wire-1.jpg' },
+              { title: 'Neelchakra Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The complex twist points of barbed wire are notorious rust traps. Our double-coat seals the joints completely.', img: '/assests/barbed-wire-1.jpg' },
+              { title: 'Neelchakra Chainlink Mesh', url: '/fencing-products/chain-link-fencing', desc: 'Secure beachfront properties and coastal highways with 12-gauge 80 GSM mesh that retains its silver-blue finish.', img: '/assests/chain-fencing-wire-1.jpg' },
+              { title: 'Neelchakra Grassland Fencing', url: '/fencing-products/grassland-fencing', desc: 'Heavy base fencing for fabrication, long runs, and salt-air exposure alongside grassland and open plots.', img: '/assests/grassland-fencing-1.jpg' },
             ].map((p) => (
               <Link key={p.url} href={p.url} className="product-detail-card">
                 <img src={p.img} alt={p.title} className="product-detail-card-img" />

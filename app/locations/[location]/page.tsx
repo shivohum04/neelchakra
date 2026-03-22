@@ -49,13 +49,13 @@ export async function generateMetadata({ params }: { params: { location: string 
   
   return {
     title: `Premium Fencing Wire Supplier in ${loc.name} | NeelChakra`,
-    description: `NeelChakra is the leading fencing wire manufacturer and bulk fencing wire supplier serving ${loc.name}. We supply double-coated GI wire, chain link, and barbed wire.`,
+    description: `NeelChakra is the leading fencing wire manufacturer and bulk fencing wire supplier serving ${loc.name}. We supply Neelchakra wire, Neelchakra barbed wire, Neelchakra chainlink mesh, and Neelchakra grassland fencing.`,
     keywords: [
       `fencing wire manufacturer ${loc.name}`,
       `fencing wire supplier ${loc.name}`,
       `bulk fencing wire supplier`,
-      `double coated GI wire exporter India`,
-      `chain link fencing ${loc.name}`
+      `double coated GI wire ${loc.name}`,
+      `Neelchakra chainlink mesh ${loc.name}`,
     ],
   };
 }
@@ -130,7 +130,7 @@ export default function LocationPage({ params }: { params: { location: string } 
             <span className="section-label">Why Choose NeelChakra?</span>
             <h2 style={{ fontFamily: 'var(--font-primary)', fontSize: '2.5rem', marginBottom: 24 }}>The Trusted Fencing Wire Manufacturer {loc.isHome ? `in ${loc.name}` : `for ${loc.name}`}</h2>
             <p style={{ fontSize: '1.1rem', color: 'var(--text-body)', lineHeight: 1.8, marginBottom: 20 }}>
-              Finding a reliable <strong>fencing wire supplier in {loc.name}</strong> who can consistently deliver high-tensile strength and verified zinc coatings is a challenge for many procurement managers. NeelChakra bridges this gap. We are recognized not just domestically, but as a premier <strong>double coated GI wire exporter India</strong>, bringing export-grade quality to local Indian markets.
+              Finding a reliable <strong>fencing wire supplier in {loc.name}</strong> who can consistently deliver high-tensile strength and verified zinc coatings is a challenge for many procurement managers. NeelChakra bridges this gap — with factory-direct double-coated GI wire from our Raipur plant, built to the same standards we supply across India.
             </p>
             <p style={{ fontSize: '1.1rem', color: 'var(--text-body)', lineHeight: 1.8, marginBottom: 20 }}>
               Whether you are securing thousands of acres of agricultural land, fencing a new solar park, or distributing to local hardware retail networks, our position as a primary <strong>fencing wire manufacturer {loc.isHome ? `in ${loc.name}` : 'in Central India'}</strong> ensures you receive product directly from the source. This means strict ISO 9001:2015 quality control, immediate scalability for mega-projects, and zero middleman markups.
@@ -173,9 +173,10 @@ export default function LocationPage({ params }: { params: { location: string } 
           </div>
           <div className="products-detail-grid">
             {[
-              { title: 'Chain Link Fencing', url: '/fencing-products/chain-link-fencing', desc: 'Custom heights and mesh sizes woven from double-coated GI wire.', img: '/assests/chain-fencing-wire-1.jpg' },
-              { title: 'Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'High-tensile, 4-point barbed wire designed for maximum agricultural and industrial security.', img: '/assests/barbed-wire-1.jpg' },
-              { title: 'Double Coated GI Wire', url: '/fencing-products/double-coated-gi-wire', desc: '10 to 14 gauge base wire in 30, 40, and 80 GSM heavy zinc coatings.', img: '/assests/grassland-fencing-1.jpg' },
+              { title: 'Neelchakra Wire', url: '/fencing-products/neelchakra-wire', desc: 'Premium binding and stay wire in double-coated grades for projects across the region.', img: '/assests/wire-1.jpg' },
+              { title: 'Neelchakra Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'High-tensile, 4-point barbed wire designed for maximum agricultural and industrial security.', img: '/assests/barbed-wire-1.jpg' },
+              { title: 'Neelchakra Chainlink Mesh', url: '/fencing-products/chain-link-fencing', desc: 'Custom heights and mesh sizes woven from double-coated GI wire.', img: '/assests/chain-fencing-wire-1.jpg' },
+              { title: 'Neelchakra Grassland Fencing', url: '/fencing-products/grassland-fencing', desc: '10 to 14 gauge grassland fencing in 30, 40, and 80 GSM heavy zinc coatings.', img: '/assests/grassland-fencing-1.jpg' },
             ].map((p) => (
               <Link key={p.url} href={p.url} className="product-detail-card">
                 <img src={p.img} alt={p.title} className="product-detail-card-img" />

@@ -63,9 +63,10 @@ export default function SolarPage() {
           </div>
           <div className="products-detail-grid">
             {[
-              { title: 'Chain Link Fencing', url: '/fencing-products/chain-link-fencing', desc: 'Recommended 50mm mesh to prevent small animal intrusion that could chew critical inverter cabling.', img: '/assests/chain-fencing-wire-1.jpg' },
-              { title: 'Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'Essential top-layer deterrence against theft of valuable copper wiring and solar hardware.', img: '/assests/barbed-wire-1.jpg' },
-              { title: 'Double Coated GI Wire', url: '/fencing-products/double-coated-gi-wire', desc: 'Used for grounding frameworks, tensioning lines, and general heavy tie-down within the park.', img: '/assests/grassland-fencing-1.jpg' },
+              { title: 'Neelchakra Wire', url: '/fencing-products/neelchakra-wire', desc: 'Stay and binding wire for grounding straps, tensioning, and structural tie-down within the park.', img: '/assests/wire-1.jpg' },
+              { title: 'Neelchakra Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'Essential top-layer deterrence against theft of valuable copper wiring and solar hardware.', img: '/assests/barbed-wire-1.jpg' },
+              { title: 'Neelchakra Chainlink Mesh', url: '/fencing-products/chain-link-fencing', desc: 'Recommended 50mm mesh to prevent small animal intrusion that could chew critical inverter cabling.', img: '/assests/chain-fencing-wire-1.jpg' },
+              { title: 'Neelchakra Grassland Fencing', url: '/fencing-products/grassland-fencing', desc: 'Heavy fencing wire for grounding frameworks, long spans, and perimeter reinforcement.', img: '/assests/grassland-fencing-1.jpg' },
             ].map((p) => (
               <Link key={p.url} href={p.url} className="product-detail-card">
                 <img src={p.img} alt={p.title} className="product-detail-card-img" />

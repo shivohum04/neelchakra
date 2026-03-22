@@ -63,9 +63,10 @@ export default function AgriculturePage() {
           </div>
           <div className="products-detail-grid">
             {[
-              { title: 'Chain Link Fencing', url: '/fencing-products/chain-link-fencing', desc: 'Ideal for protecting high-value horticulture and preventing small animal intrusion. 50mm mesh recommended.', img: '/assests/chain-fencing-wire-1.jpg' },
-              { title: 'Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The cost-effective standard for large perimeter marking and cattle management. 12 gauge double-coated.', img: '/assests/barbed-wire-1.jpg' },
-              { title: 'Double Coated GI Wire', url: '/fencing-products/double-coated-gi-wire', desc: 'Used for crop trellising, vineyard supports, and custom farm fabrication.', img: '/assests/grassland-fencing-1.jpg' },
+              { title: 'Neelchakra Wire', url: '/fencing-products/neelchakra-wire', desc: 'Premium binding and stay wire for trellising, supports, and custom farm fabrication.', img: '/assests/wire-1.jpg' },
+              { title: 'Neelchakra Barbed Wire', url: '/fencing-products/barbed-wire', desc: 'The cost-effective standard for large perimeter marking and cattle management. 12 gauge double-coated.', img: '/assests/barbed-wire-1.jpg' },
+              { title: 'Neelchakra Chainlink Mesh', url: '/fencing-products/chain-link-fencing', desc: 'Ideal for protecting high-value horticulture and preventing small animal intrusion. 50mm mesh recommended.', img: '/assests/chain-fencing-wire-1.jpg' },
+              { title: 'Neelchakra Grassland Fencing', url: '/fencing-products/grassland-fencing', desc: 'Grassland and field fencing for crop boundaries, vineyard rows, and long-span perimeters.', img: '/assests/grassland-fencing-1.jpg' },
             ].map((p) => (
               <Link key={p.url} href={p.url} className="product-detail-card">
                 <img src={p.img} alt={p.title} className="product-detail-card-img" />

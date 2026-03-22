@@ -6,7 +6,7 @@ interface Props { productName: string; }
 
 export default function ProductInquiryForm({ productName }: Props) {
   return (
-    <div className="inquiry-form-panel" style={{ textAlign: 'center', padding: '40px 24px' }}>
+    <div className="inquiry-form-panel">
       <h3 style={{ marginBottom: '24px', fontSize: '1.5rem' }}>
         Ready for bulk order? <br />
         Let's talk. <span style={{ color: 'var(--brand-blue)', fontWeight: 'bold' }}>Directly.</span>

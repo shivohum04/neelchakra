@@ -59,6 +59,7 @@ export default function ProductNav() {
         <li><Link href="/applications" onClick={() => setMenuOpen(false)}>Applications</Link></li>
         <li><Link href="/locations" onClick={() => setMenuOpen(false)}>Service Areas</Link></li>
         <li><Link href="/tata-aayush-alternative" onClick={() => setMenuOpen(false)}>Smart Pricing</Link></li>
+        <li><Link href="/contact" onClick={() => setMenuOpen(false)}>Contact</Link></li>
       </ul>
       <button
         type="button"
